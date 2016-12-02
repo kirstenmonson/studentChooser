@@ -1,6 +1,5 @@
 from chair import Chair
 from face import Face
-import sys
 
 #               top left corner  bottom right corner
 auditorium = [Chair([[578, 386], [690, 537]]),   # top left

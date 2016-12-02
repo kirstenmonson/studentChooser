@@ -12,7 +12,7 @@ class Face:
         if len(auditorium) == len(faces):
             return faces
         for (Face) in faces:
-            possibleConnection = [];
+            possibleConnection = []
             for (Chair) in auditorium:
                 if not Chair.Face:
                     #100 is just under the average distance between XCoords of the chairs, so this narrows our search down to the right column
